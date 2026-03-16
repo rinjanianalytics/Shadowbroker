@@ -142,5 +142,149 @@
     "branch": "navy",
     "lat": -7.316,
     "lng": 72.411
+  },
+  {
+    "name": "Naha Air Base",
+    "country": "Japan",
+    "operator": "ASDF 9th Air Wing",
+    "branch": "asdf",
+    "lat": 26.196,
+    "lng": 127.646
+  },
+  {
+    "name": "Misawa Air Base (ASDF)",
+    "country": "Japan",
+    "operator": "ASDF 3rd Air Wing",
+    "branch": "asdf",
+    "lat": 40.706,
+    "lng": 141.371
+  },
+  {
+    "name": "Chitose Air Base",
+    "country": "Japan",
+    "operator": "ASDF 2nd Air Wing",
+    "branch": "asdf",
+    "lat": 42.795,
+    "lng": 141.666
+  },
+  {
+    "name": "Nyutabaru Air Base",
+    "country": "Japan",
+    "operator": "ASDF 5th Air Wing",
+    "branch": "asdf",
+    "lat": 32.084,
+    "lng": 131.451
+  },
+  {
+    "name": "Tsuiki Air Base",
+    "country": "Japan",
+    "operator": "ASDF 8th Air Wing",
+    "branch": "asdf",
+    "lat": 33.685,
+    "lng": 131.041
+  },
+  {
+    "name": "Komatsu Air Base",
+    "country": "Japan",
+    "operator": "ASDF 6th Air Wing",
+    "branch": "asdf",
+    "lat": 36.395,
+    "lng": 136.407
+  },
+  {
+    "name": "Hamamatsu Air Base",
+    "country": "Japan",
+    "operator": "ASDF Air Defense Command",
+    "branch": "asdf",
+    "lat": 34.750,
+    "lng": 137.703
+  },
+  {
+    "name": "Iruma Air Base",
+    "country": "Japan",
+    "operator": "ASDF Central Air Command HQ",
+    "branch": "asdf",
+    "lat": 35.842,
+    "lng": 139.411
+  },
+  {
+    "name": "Yokosuka Naval Base (MSDF)",
+    "country": "Japan",
+    "operator": "MSDF Fleet HQ",
+    "branch": "msdf",
+    "lat": 35.290,
+    "lng": 139.665
+  },
+  {
+    "name": "Kure Naval Base",
+    "country": "Japan",
+    "operator": "MSDF Kure District",
+    "branch": "msdf",
+    "lat": 34.233,
+    "lng": 132.566
+  },
+  {
+    "name": "Sasebo Naval Base (MSDF)",
+    "country": "Japan",
+    "operator": "MSDF Sasebo District",
+    "branch": "msdf",
+    "lat": 33.165,
+    "lng": 129.715
+  },
+  {
+    "name": "Maizuru Naval Base",
+    "country": "Japan",
+    "operator": "MSDF Maizuru District",
+    "branch": "msdf",
+    "lat": 35.469,
+    "lng": 135.383
+  },
+  {
+    "name": "Kanoya Air Base (MSDF)",
+    "country": "Japan",
+    "operator": "MSDF Fleet Air Wing 1",
+    "branch": "msdf",
+    "lat": 31.367,
+    "lng": 130.845
+  },
+  {
+    "name": "Ominato Naval Base",
+    "country": "Japan",
+    "operator": "MSDF Ominato District",
+    "branch": "msdf",
+    "lat": 41.279,
+    "lng": 141.135
+  },
+  {
+    "name": "Camp Naha (GSDF)",
+    "country": "Japan",
+    "operator": "GSDF 15th Brigade",
+    "branch": "gsdf",
+    "lat": 26.334,
+    "lng": 127.769
+  },
+  {
+    "name": "Yonaguni Garrison",
+    "country": "Japan",
+    "operator": "GSDF Yonaguni Coastal Surveillance",
+    "branch": "gsdf",
+    "lat": 24.467,
+    "lng": 122.978
+  },
+  {
+    "name": "Miyako Island Garrison",
+    "country": "Japan",
+    "operator": "GSDF Miyako Garrison",
+    "branch": "gsdf",
+    "lat": 24.791,
+    "lng": 125.281
+  },
+  {
+    "name": "Amami Garrison",
+    "country": "Japan",
+    "operator": "GSDF Amami Garrison",
+    "branch": "gsdf",
+    "lat": 28.381,
+    "lng": 129.494
   }
 ]
