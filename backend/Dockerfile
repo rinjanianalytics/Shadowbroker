@@ -21,6 +21,8 @@ ENV UV_PROJECT_ENVIRONMENT=/usr/local
 COPY pyproject.toml .
 # Copy lock file for reproducible builds
 COPY uv.lock .
+# Copy source code
+COPY backend/ .
 # Install Python dependencies using UV (this will use the lock file for reproducibility)
 RUN uv sync --frozen
 RUN uv run playwright install --with-deps chromium
@@ -30,8 +32,6 @@ RUN uv run playwright install --with-deps chromium
 COPY backend/package*.json ./
 RUN npm ci --omit=dev
 
-# Copy source code
-COPY backend/ .
 # Create a non-root user for security
 # Grant write access to /app so the auto-updater can extract files
 RUN adduser --system --uid 1001 backenduser \
