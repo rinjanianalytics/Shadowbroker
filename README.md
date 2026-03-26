@@ -323,17 +323,17 @@ The first decentralized intelligence communication layer built directly into an 
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
-│                     FRONTEND (Next.js)                        │
+│                     FRONTEND (Next.js)                       │
 │                                                              │
-│  ┌─────────────┐  ┌──────────┐  ┌───────────┐  ┌─────────┐  │
-│  │ MapLibre GL │  │ NewsFeed │  │  Control   │  │  Mesh   │  │
-│  │  2D WebGL   │  │  SIGINT  │  │  Panels    │  │  Chat   │  │
-│  │ Map Render  │  │  Intel   │  │Layers/Radio│  │Terminal │  │
-│  └──────┬──────┘  └────┬─────┘  └─────┬─────┘  └────┬────┘  │
-│         └───────────────┼──────────────┼─────────────┘       │
-│                         │ REST + WebSocket                    │
+│  ┌─────────────┐  ┌──────────┐  ┌───────────┐  ┌─────────┐   │
+│  │ MapLibre GL │  │ NewsFeed │  │  Control  │  │  Mesh   │   │
+│  │  2D WebGL   │  │  SIGINT  │  │  Panels   │  │  Chat   │   │
+│  │ Map Render  │  │  Intel   │  │  Radio    │  │Terminal │   │
+│  └──────┬──────┘  └────┬─────┘  └─────┬─────┘  └────┬────┘   │
+│         └──────────────┼──────────────┼─────────────┘        │
+│                         │ REST + WebSocket                   │
 ├─────────────────────────┼────────────────────────────────────┤
-│                   BACKEND (FastAPI)                           │
+│                   BACKEND (FastAPI)                          │
 │                         │                                    │
 │  ┌──────────────────────┼─────────────────────────────────┐  │
 │  │              Data Fetcher (Scheduler)                  │  │
@@ -355,12 +355,12 @@ The first decentralized intelligence communication layer built directly into an 
 │  │  │ Devices  │  Trains  │ TinyGS   │   APRS    │        │  │
 │  │  ├──────────┼──────────┼──────────┼───────────┤        │  │
 │  │  │ Volcanoes│ Weather  │ Fishing  │ Mil Bases │        │  │
-│  │  │ Air Qual │ Alerts   │ Activity │Power Plant│        │  │
+│  │  │ Air Qual.│ Alerts   │ Activity │Power Plant│        │  │
 │  │  └──────────┴──────────┴──────────┴───────────┘        │  │
 │  └────────────────────────────────────────────────────────┘  │
 │                                                              │
 │  ┌────────────────────────────────────────────────────────┐  │
-│  │              Wormhole / InfoNet Relay                   │  │
+│  │              Wormhole / InfoNet Relay                  │  │
 │  │  Gate Personas │ Canonical Signing │ Dead Drop DMs     │  │
 │  └────────────────────────────────────────────────────────┘  │
 └──────────────────────────────────────────────────────────────┘
